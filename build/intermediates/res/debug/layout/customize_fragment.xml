@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/cbBigView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Big View "/>
+
+    <CheckBox
+        android:id="@+id/cbTickerMessage"
+        android:layout_width="wrap_content"
+        android:text=" Ticker message"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/cbUpdateNotification"
+        android:layout_width="wrap_content"
+        android:text=" Update Same Notification"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/cbSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Activate Sound"/>
+
+    <CheckBox
+        android:id="@+id/cbLight"
+        android:layout_width="wrap_content"
+        android:text=" Notification Light"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/cbVibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Vibration "/>
+</LinearLayout><!-- From: file:/home/lakshay/AndroidStudioProjects/FirstApplication/app2/src/main/res/layout/customize_fragment.xml -->
